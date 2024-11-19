@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import Footer from "@/components/footer";
-import Header from '@/components/header';
+// import Header from '@/components/header';
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -34,7 +34,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <main className="min-h-screen flex flex-col items-center w-full">
-            <Header/>
             <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
               <div className="flex flex-col w-full max-w-7xl mt-3 xl:mt-5">
                 {children}
