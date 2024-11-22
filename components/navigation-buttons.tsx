@@ -12,7 +12,7 @@ const NavigationButtons = () => {
         </Button>
       </Link>
 
-      <Link href="https://brixton.com.br" target="_blank">
+      <Link href="https://brixtongroup.com.br" target="_blank">
         <Button className="w-40 rounded-full bg-sky-950 hover:bg-red-700 font-bold">
           <Image
             src={logoBrixton}
