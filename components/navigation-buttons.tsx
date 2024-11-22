@@ -17,7 +17,6 @@ const NavigationButtons = () => {
           <Image
             src={logoBrixton}
             alt="Logotipo Novabrix"
-            priority
             sizes="(min-width: 100%)"
             style={{ objectFit: 'contain' }}
             className="w-2/3"

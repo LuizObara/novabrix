@@ -24,8 +24,7 @@ const LogoMarca = () => {
     <div className="w-full flex justify-center">
       <Image
         src={isDarkMode ? logoDark : logoLight}
-        alt="Logomarca Brixton"
-        priority
+        alt="Logomarca Novabrix"        
         sizes="(min-width: 100%)"
         style={{ objectFit: 'contain' }}
         className="w-2/3 lg:w-full"
