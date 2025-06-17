@@ -1,15 +1,15 @@
 import { Montserrat } from 'next/font/google';
 import type { Metadata } from "next";
 
-import { ThemeProvider } from "@/components/theme-provider";
+import WhatsappButton from '@/components/whatsapp-button';
 import { Toaster } from "@/components/ui/sonner";
-import Footer from "@/components/footer";
-// import Header from '@/components/header';
+import Footer from "@/components/layout/footer";
+import Header from '@/components/layout/header';
 import "./globals.css";
 
 const montserrat = Montserrat({
-  weight:  ['100', '400', '700', '900'],
-  style:   ['normal', 'italic'],
+  weight: ['100', '400', '700', '900'],
+  style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
 })
@@ -25,25 +25,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning={true} >
+    <html lang="en" suppressHydrationWarning={true}>
       <body className={montserrat.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <main className="min-h-screen flex flex-col items-center w-full">
-            <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
-              <div className="flex flex-col w-full max-w-7xl mt-3 xl:mt-5">
-                {children}
-              </div>
-              <Toaster />
+        <main className="min-h-screen flex flex-col w-full">
+          <Header />          
+          <div className="flex-1 w-full flex flex-col items-center overflow-y-auto overflow-x-hidden">
+            <div className="flex flex-col w-full ">
+              {children}
+              <WhatsappButton/>
             </div>
-            <Footer  />
-          </main>
-        </ThemeProvider>
+            <Toaster/>
+          </div>
+          <Footer/>
+        </main>
       </body>
-    </html>
+  </html>
   );
 }

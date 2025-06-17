@@ -13,7 +13,7 @@ const NavigationButtons = () => {
       </Link>
 
       <Link href="https://brixtongroup.com.br" target="_blank">
-        <Button className="w-40 rounded-full bg-sky-950 hover:bg-red-700 font-bold">
+        <Button className="w-40 rounded-full bg-sky-950 hover:bg-[#085c53] font-bold">
           <Image
             src={logoBrixton}
             alt="Logotipo Novabrix"

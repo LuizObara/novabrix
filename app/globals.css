@@ -76,3 +76,47 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: #25d366;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button img {
+  width: 60px;
+  height: 60px;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button:hover img {
+  transform: scale(1.2);
+}
+
+.bg-hero {
+  background-image: 
+    linear-gradient(rgba(1, 1, 1, 0.4), rgba(1, 1, 1, 0.4)),
+    url("../assets/images/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}

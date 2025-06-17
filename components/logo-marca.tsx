@@ -1,33 +1,24 @@
-'use client';
-
-import { useState, useEffect } from "react";
-import { useTheme } from "next-themes";
 import Image from "next/image";
+
 import logoLight from '@/assets/NOVABRIX - Logomarca-light.png';
 import logoDark from '@/assets/NOVABRIX - Logomarca-dark.png';
 
-const LogoMarca = () => {
-  const [mounted, setMounted] = useState(false);
-  const { theme } = useTheme();
+type LogoMarcaProps = {
+  type?: "default" | "dark";
+}
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+const LogoMarca = ({ type = "default" }: LogoMarcaProps) => {
 
-  if (!mounted) {
-    return null;
-  }
-
-  const isDarkMode = theme === "dark";
+  const isDarkMode = type === "dark";
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex lg:justify-left">
       <Image
         src={isDarkMode ? logoDark : logoLight}
-        alt="Logomarca Novabrix"        
+        alt="Logomarca Brixton"
         sizes="(min-width: 100%)"
         style={{ objectFit: 'contain' }}
-        className="w-2/3 lg:w-full"
+        className="w-full"
       />
     </div>
   );
