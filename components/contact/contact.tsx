@@ -14,7 +14,7 @@ export default function Contact() {
                         <div className="my-5 md:my-3 w-full text-center text-white uppercase text-xl font-bold">nossa localização</div>
                         <div className="p-3 w-full h-[300px] md:w-[500px] md:h-[500px] bg-black rounded-lg">
                             <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7983357564067!2d-47.472375712972834!3d-23.53975460616013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a69f35ab025%3A0xd371808415e45638!2sR.%20Ant%C3%B4nio%20Perez%20Hernandez%2C%20125%20-%20Parque%20Campolim%2C%20Sorocaba%20-%20SP%2C%2018048-115!5e0!3m2!1spt-BR!2sbr!4v1739451357402!5m2!1spt-BR!2sbr"                         
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.3576514486253!2d-47.540512423747266!3d-23.519635460062396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58cb01db18043%3A0xd8baccd7cf47f562!2sTv.%20Moacir%20Tudela%20Fernandes%2C%20Sorocaba%20-%20SP%2C%2018052-476!5e0!3m2!1spt-BR!2sbr!4v1750773706395!5m2!1spt-BR!2sbr"             
                                 className="w-full h-full rounded-lg"
                                 allowFullScreen={true}
                                 loading="lazy" 
