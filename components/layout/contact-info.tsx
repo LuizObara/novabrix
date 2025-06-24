@@ -16,13 +16,13 @@ export default function ContactInfo () {
                 <h4 className='mr-3 text-lg font-semibold'>Endereço:</h4>
 
                 <div className="w-full uppercase">
-                    <h5>Rua Antonio Perez Hernandez, nº 125, box 50, em Sorocaba/SP, CEP 18048-115</h5>
+                    <h5>Travessa Moacir Tudela Fernandes, nº 297, Ipanema do Meio , em Sorocaba/SP, CEP 18052-476</h5>
                 </div>
             </div>
             
             <div className="flex justify-left text-white items-center">
                 <h4 className='mr-3 text-lg font-semibold'>Contato:</h4>
-                <h5>(011) 94186-4769</h5>
+                <h5>(015) 99731-3102</h5>
             </div>
         </div>
     )
