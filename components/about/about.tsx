@@ -1,6 +1,6 @@
 import NavigationButtons from "../navigation-buttons";
 import AboutButtons from "./about-buttons";
-import about from "@/assets/images/WhatsApp Image 2025-02-20 at 15.31.51.jpeg";
+import about from "@/assets/images/about.jpg";
 import Image from "next/image";
 
 export default function About() {

@@ -24,6 +24,14 @@ export default function NavigationBar() {
                 </NavigationMenuItem>
 
                 <NavigationMenuItem>
+                    <Link href="/#sobre-nos" legacyBehavior passHref>
+                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                            Sobre nós
+                        </NavigationMenuLink>
+                    </Link>
+                </NavigationMenuItem>
+                
+                <NavigationMenuItem>
                     <Link href="/#servicos" legacyBehavior passHref>
                         <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                             Serviços
@@ -31,13 +39,6 @@ export default function NavigationBar() {
                     </Link>
                 </NavigationMenuItem>
 
-                <NavigationMenuItem>
-                    <Link href="/#sobre-nos" legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                            Sobre nós
-                        </NavigationMenuLink>
-                    </Link>
-                </NavigationMenuItem>
 
                 <NavigationMenuItem>
                     <Link href="/#contato" legacyBehavior passHref>

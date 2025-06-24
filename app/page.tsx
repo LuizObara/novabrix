@@ -13,13 +13,13 @@ export default function Home() {
           <Hero />
         </section>
 
+        <section id="sobre-nos" className="min-h-screen">
+          <About />
+        </section>
         <section id="servicos" className="min-h-screen bg-[#0d2d44]">
           <Services />
         </section>
 
-        <section id="sobre-nos" className="min-h-screen">
-          <About />
-        </section>
 
         <section id="contato" className="min-h-screen bg-[#0d2d44]">
           <Contact />
