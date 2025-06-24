@@ -3,7 +3,7 @@ import drenagem from '@/assets/images/services/drenagem-grande-porte.jpeg';
 import muro from '@/assets/images/services/muro-de-gabiao.jpeg';
 import passagem from '@/assets/images/services/passagem-molhada.jpeg';
 import pavimentacao from '@/assets/images/services/pavimentacao-asfaltica.jpeg';
-import recapiamento from '@/assets/images/services/recapiamento-pavimento-industrial.jpeg';
+import recapeamento from '@/assets/images/services/recapiamento-pavimento-industrial.jpeg';
 import recuperacao from '@/assets/images/services/recuperacao-pavimento-pesado.jpeg';
 import reforma from '@/assets/images/services/reforma-pontes.jpeg';
 import sistemas from '@/assets/images/services/sistemas-drenagem.jpeg';           
@@ -16,7 +16,7 @@ const servicesData = [
     { title: 'Muro de Gabiao', image: muro },
     { title: 'Passagem molhada', image: passagem },
     { title: 'Pavimentação Asfáltica', image: pavimentacao },
-    { title: 'Recapiamento de pavimento Industrial', image: recapiamento },
+    { title: 'Recapeamento de pavimento Industrial', image: recapeamento },
     { title: 'Recuperação de pavimento Pesado', image: recuperacao },
     { title: 'Reforma de Obra de Artes', image: reforma },
     { title: 'Sistemas de Drenagem', image: sistemas },
