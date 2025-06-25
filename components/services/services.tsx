@@ -13,7 +13,7 @@ import Image from 'next/image';
 const servicesData = [
     { title: 'Construção de Obras de Arte', image: construcao },
     { title: 'Drenagem de grande porte', image: drenagem },
-    { title: 'Muro de Gabiao', image: muro },
+    { title: 'Muro de Gabião', image: muro },
     { title: 'Passagem molhada', image: passagem },
     { title: 'Pavimentação Asfáltica', image: pavimentacao },
     { title: 'Recapeamento de pavimento Industrial', image: recapeamento },

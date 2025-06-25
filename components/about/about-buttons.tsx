@@ -2,7 +2,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 
 export default function AboutButtons () {
-    const whatsappNumber = '5511941864769'; 
+    const whatsappNumber = '15981537823'; 
     const whatsappMessage = encodeURIComponent('Olá! Gostaria de mais informações.');
 
     return (

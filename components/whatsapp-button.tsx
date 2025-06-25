@@ -2,7 +2,7 @@ import Image from "next/image";
 import WhatsAppIcon from "@/assets/whatsapp.png"
 
 const WhatsappButton = () => {
-  const whatsappNumber = '15997313102'; 
+  const whatsappNumber = '15981537823'; 
   const whatsappMessage = encodeURIComponent('Olá! Gostaria de mais informações.');
 
   return (

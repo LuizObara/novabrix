@@ -12,7 +12,7 @@ const ContactButton = ({ type = "default" }: ContactButtonProps) => {
   return (
     <div className="w-full flex justify-center">
       <Link
-        href={isWhatsapp ? "https://wa.me/15997313102" : "mailto:contato@britongroup.com.br"}
+        href={isWhatsapp ? "https://wa.me/15981537823" : "mailto:contato@britongroup.com.br"}
         className={`w-3/4 rounded-full font-bold ${
           isWhatsapp ? "bg-[#0c776c] text-white" : ""
         }`}
